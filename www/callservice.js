@@ -11,8 +11,8 @@
 
 	CallService.prototype.stop = function() {
 		return cordova.exec(
-				function (args) {  } },
-				function (args) {  } },
+				function (args) {  } ,
+				function (args) {  } ,
 				"CallService", "stop", []);
 	};
 
