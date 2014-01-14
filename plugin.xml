@@ -15,7 +15,7 @@
     <platform name="android">
 
         <js-module src="www/callservice.js" name="CallService">
-            <clobbers target="window.CallService" />
+            <clobbers target="CallService" />
         </js-module>
 
         <source-file src="src/android/com/cordova/plugin/callservice/CallService.java" target-dir="src/com/cordova/plugin/callservice" />
