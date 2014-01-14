@@ -31,6 +31,8 @@ public class CallService extends CordovaPlugin {
 
   @Override
   public boolean execute(String action, JSONArray args, CallbackContext callbackContext) {
+    Log.v("masterthesis, plugin", "Called execute of CallService plugin with action: " + action + " and arguments "
+        + args.toString());
     try {
       if (action.equals("start")) {
         this.startPowerService(args.getString(0));
