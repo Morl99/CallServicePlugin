@@ -4,8 +4,8 @@
 
 	CallService.prototype.start = function(description) {
 		return cordova.exec(
-				function (args) {  } },
-				function (args) {  } },
+				function (args) {  } ,
+				function (args) {  } ,
 				"CallService", "start", [description]);
 	};
 
