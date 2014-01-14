@@ -18,7 +18,7 @@
             <clobbers target="cordova.plugins.CallService" />
         </js-module>
 
-        <source-file src="src/android/com/cordova/plugin/callservice/CallService.java" target-dir="src/com/cordova/plugin/callservie" />
+        <source-file src="src/android/com/cordova/plugin/callservice/CallService.java" target-dir="src/com/cordova/plugin/callservice" />
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="CallService">
