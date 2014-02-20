@@ -1,7 +1,7 @@
-SoftKeyboard plugin
+CallService plugin
 ==============
 
-SoftKeyboard control plugin for Cordova / PhoneGap.
+CallService plugin for Cordova / PhoneGap.
 
 Follows the [Cordova Plugin spec](https://github.com/apache/cordova-plugman/blob/master/plugin_spec.md), so that it works with [Plugman](https://github.com/apache/cordova-plugman).
 
@@ -10,15 +10,11 @@ Taken from: https://github.com/phonegap/phonegap-plugins/tree/master/Android/Sof
 Note: So far only supports Android.
 
 ## Using the plugin ##
-The plugin creates the object `cordova/plugins/SoftKeyboard` with the method `show(success, fail)`.
+
 
 ## Example ##
 
-    cordova.plugins.SoftKeyboard.show(function () {
-        // success
-    },function () {
-       // fail
-    });
+
 
 ## Licence ##
 
